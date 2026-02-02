@@ -140,7 +140,6 @@ function validateEmail(email) {
     return re.test(email);
 }
 
-// Console easter egg
 console.log('%c🚨 Edmonton Emergency Photography 🚨', 'font-size: 20px; font-weight: bold; color: #dc2626;');
-console.log('%cDocumenting critical moments with professionalism and precision.', 'font-size: 12px; color: #475569;');
-console.log('%cInterested in our services? Contact us at contact@edmontonemergency.photo', 'font-size: 12px; color: #1e40af;');
+console.log('%cHmmm, you are checking out the console...', 'font-size: 12px; color: #475569;');
+console.log('%cNeed to get in contact? Contact us at hello@edmontonemergencyphotography.ca', 'font-size: 12px; color: #1e40af;');
